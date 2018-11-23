@@ -5,7 +5,7 @@
   "main": "bin/run.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bin/run.js"
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/michaelmanteo/ExpressUserService#readme",
   "dependencies": {
     "dotenv": "^6.1.0",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "express-promise-router": "^3.0.3"
   }
 }

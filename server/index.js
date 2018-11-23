@@ -5,4 +5,6 @@ const app = express();
 
 app.get('/', (req, res) => res.send('Hello world!') );
 
+app.use('/users', require('./routes/users'));
+
 module.exports = app;
