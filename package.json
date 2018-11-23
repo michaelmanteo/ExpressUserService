@@ -1,0 +1,23 @@
+{
+  "name": "expressuserservice",
+  "version": "1.0.0",
+  "description": "A user account management API.",
+  "main": "bin/run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/michaelmanteo/ExpressUserService.git"
+  },
+  "author": "Michael N. Manteo, II",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelmanteo/ExpressUserService/issues"
+  },
+  "homepage": "https://github.com/michaelmanteo/ExpressUserService#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
