@@ -6,5 +6,5 @@ const server = http.createServer(app).listen(PORT);
 
 server.on('listening', () => {
     mongoDB.connect( () => console.log('Connected to MongoDB'));
-    console.log(`Express User service app listening on PORT:${server.address().port} in '${app.get('env')}' mode.`);
+    console.log(`Express User Service listening on PORT:${server.address().port} in '${app.get('env')}' mode.`);
 });
